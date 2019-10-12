@@ -1,6 +1,6 @@
 
 	----------------------------------------------------------------------
-	-- Leatrix Maps Reveal Data
+	-- Leatrix Maps Reveal Data (www.leatrix.com)
 	-- wow.tools/api/export/?name=worldmapoverlay&build=1.13.2.31407
 	-- wow.tools/api/export/?name=worldmapoverlaytile&build=1.13.2.31407
 	----------------------------------------------------------------------
