@@ -3,11 +3,10 @@
 ## Title: Leatrix Maps
 ## Notes: Enhancements for your maps.
 
-## Version: 1.13.35.alpha.2
+## Version: 1.13.12
 ## Author: Leatrix
 ## SavedVariables: LeaMapsDB
 
-Leatrix_Maps_Library.lua
 Leatrix_Maps_Locale.lua
 Leatrix_Maps.xml
 Leatrix_Maps_Reveal.lua
