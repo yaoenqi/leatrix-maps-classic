@@ -1,6 +1,6 @@
 ﻿
 	----------------------------------------------------------------------
-	-- 	Leatrix Maps 1.13.37.alpha.1 (23rd October 2019)
+	-- 	Leatrix Maps 1.13.37.alpha.2 (5th November 2019)
 	----------------------------------------------------------------------
 
 	-- 10:Func, 20:Comm, 30:Evnt, 40:Panl
@@ -12,7 +12,7 @@
 	local LeaMapsLC, LeaMapsCB, LeaConfigList = {}, {}, {}
 
 	-- Version
-	LeaMapsLC["AddonVer"] = "1.13.37.alpha.1"
+	LeaMapsLC["AddonVer"] = "1.13.37.alpha.2"
 	LeaMapsLC["RestartReq"] = nil
 
 	-- Get locale table
@@ -2257,8 +2257,7 @@
 				ReloadUI()
 			elseif str == "help" then
 				-- Show available commands
-				LeaMapsLC:Print("Leatrix Maps" .. "|n")
-				LeaMapsLC:Print(L["Classic"] .. " " .. LeaMapsLC["AddonVer"] .. "|n|n")
+				LeaMapsLC:Print("Leatrix Maps" .. "" .. LeaMapsLC["AddonVer"] .. "|n")
 				LeaMapsLC:Print("/ltm reset - Reset the panel position.")
 				LeaMapsLC:Print("/ltm wipe - Wipe all settings and reload.")
 				LeaMapsLC:Print("/ltm help - Show this information.")
@@ -2480,7 +2479,7 @@
 	PageF.v:SetPoint('TOPLEFT', PageF.mt, 'BOTTOMLEFT', 0, -8)
 	PageF.v:SetPoint('RIGHT', PageF, -32, 0)
 	PageF.v:SetJustifyH('LEFT'); PageF.v:SetJustifyV('TOP')
-	PageF.v:SetNonSpaceWrap(true); PageF.v:SetText(L["Classic"] .. " " .. LeaMapsLC["AddonVer"])
+	PageF.v:SetNonSpaceWrap(true); PageF.v:SetText(LeaMapsLC["AddonVer"])
 
 	-- Add reload UI Button
 	local reloadb = LeaMapsLC:CreateButton("ReloadUIButton", PageF, "Reload", "BOTTOMRIGHT", -16, 10, 25, "Your UI needs to be reloaded for some of the changes to take effect.|n|nYou don't have to click the reload button immediately but you do need to click it when you are done making changes and you want the changes to take effect.")
